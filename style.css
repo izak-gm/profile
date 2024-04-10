@@ -161,7 +161,6 @@ html {
     display: flex;
     padding: 0% 10%;
     align-items: center;
-    max-height: 120vh;
     text-decoration: none;
   }
   .nav-content {
