@@ -419,7 +419,7 @@ html {
 }
 .projects-wrapper {
   align-items: left;
-  display: flex;
+  display: grid;
 }
 .projects-items {
   padding-left: 5%;
