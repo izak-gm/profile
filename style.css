@@ -91,7 +91,6 @@ html {
 /*navigation*/
 .nav {
   display: flex;
-  height: 120vh;
   padding: 0% 10%;
   align-items: center;
 }
