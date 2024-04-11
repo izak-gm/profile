@@ -147,16 +147,9 @@ html {
   }
 }
 @media screen and (max-width: 760px) {
-    body,
-  html {
-    width: 100%;
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-  }
   /*navigation*/
   .nav_container {
-    height:100vh;
-
+    max-height:100vh;
     padding-top: 20%;
     padding-bottom: 20%;
   }
