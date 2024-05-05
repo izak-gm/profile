@@ -480,7 +480,7 @@ html {
   color:#0ef ;
   background-color: transparent;
 }
-.text{
+.text1{
   width: 100%;
   position: absolute;
   text-align: center;
@@ -545,7 +545,7 @@ html {
     height: 100px;
     width: 100px;
   }
-  .text{
+  .text1{
     left: 10%;
   }
 
