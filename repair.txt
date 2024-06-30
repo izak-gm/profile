@@ -1,0 +1,73 @@
+ <div class="social-icons"><br>
+        <div class="social-links">
+          <h1>Follow on social media platforms</h1>
+            <a href="#social"><i class='bx bxl-facebook'></i>Lzak gakuna</a>
+            <a href="#social"><i class='bx bxl-twitter'></i>izak_gm</a>
+            <a href="#social"><i class='bx bxl-instagram'></i>izak97</a>
+            <a href="#social"><i class='bx bxl-github'></i>izak-gm</a>
+        </div>
+      </div>
+      <div class="social__media">
+      <div class="social__media--wrap">
+        <div class="social__logo">
+          <a href="#home" id="footer__logo">#codebreaker </a>
+        </div>
+            
+    </div>
+    </div>
+      <div class="website__rights">
+        <p>&copy #codebreaker 2023-2024.All rights reserved.</p>
+      </div>
+        <div class="animation-webkit">
+        <div class="webkit">
+            <p>All right reserved and web created by Isaac</p>
+        </div>
+      </div>
+
+       <div class="professional-skills">
+              <h>
+                <div class="heading">Professional Skills</div>
+              </h>
+              <div class="radical-bars">
+                <div class="radical-bar">
+                  <svg x="0px" y="0px" viewbox="0 0 200 200">
+                  <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                  <circle class="path path-1" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">70%</div>
+                <div class="text1">Problem Solving</div>
+                </div>
+                <div class="radical-bar">
+                  <svg x="0px" y="0px" viewbox="0 0 200 200">
+                  <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                  <circle class="path path-2" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">65%</div>
+                <div class="text1">Dynamic Programming</div>
+                </div>
+                <div class="radical-bar">
+                  <svg x="0px" y="0px" viewbox="0 0 200 200">
+                  <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                  <circle class="path path-3" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">78%</div>
+                <div class="text1">Creativity</div>
+                </div>
+                <div class="radical-bar">
+                  <svg x="0px" y="0px" viewbox="0 0 200 200">
+                  <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                  <circle class="path path-4" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">68%</div>
+                <div class="text1">Team work</div>
+                </div>
+                <div class="radical-bar">
+                  <svg x="0px" y="0px" viewbox="0 0 200 200">
+                  <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
+                  <circle class="path path-5" cx="100" cy="100" r="80"></circle>
+                </svg>
+                <div class="percentage">70%</div>
+                <div class="text1">Communication</div><br>
+                </div>
+              </div>
+            </div>

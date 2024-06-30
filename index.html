@@ -3,50 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Portifolio</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="style.css" />
     <!-- font text  -->
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Tangerine:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
     <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   </head>
   <body>
 <!--header-->
-    <section>
-      <div class="header" id="home">
-        <div class="header_container">
-          <div class="logo_container">
-            <a href="index.html" id="logo_id">
-              <strong>Portifolio</strong>
-            </a>
-          </div>
-          <!--span for a navigation-->
-          <div class="header_header">
-            <ul class="header_menu">
-              <li class="hyper"><a href="#home">Home</a></li>
-              <li class="hyper"><a href="#aboutme">About</a></li>
-              <li class="hyper"><a href="#contact">Contact</a></li>
-              <li class="hyper"><a href="#projects">Projects</a></li>
-            </ul>
-          </div>
+    <section class="header-sec">
+      <div class="header__container">
+        <a href="/" id="header__logo"> <i class="fas fa-gem"></i>#CODEBREAKER</a>
+        <div class="header__toggle" id="mobile-menu">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
         </div>
+        <ul class="header__menu">
+          <li class="header__item">
+            <a href="#navsec" class="header__links">Home</a>
+          </li>
+          <li class="header__item">
+            <a href="#navsec" class="header__links">AboutMe</a>
+          </li>
+          <li class="header__item">
+            <a href="#aboutme" class="header__links">Projects</a>
+          </li>
+          <li class="header__item">
+            <a href="#contact" class="header__links">Contact</a>
+          </li>
+          <li class="header__btn">
+            <a href="#" class="button">Sign Up</a>
+          </li>
+        </ul>
       </div>
+
     </section>
 <!--navigation-->
-    <section class="navsec" >
+    <section class="navsec"  id="#navsec">
       <div class="nav">
         <div class="nav_container">
           <div class="nav_name__logo">
-            <h1>Hello I'm</h1>
+            <h1>Hello,</h1>
             <div class="nav-content">
               <h1>I'm <span>ISAAC MAINGI</span></h1>
               <h3>I'm <span class="text"></span></h3>
               <p>
                 I'm a skilled web developer,data analyst and backend developer with expertise in web development and
                 back-end development, proficient in languages like HTML, CSS,
-                JavaScript, PHP, Python, mysql, R, C and Node.js. With 2 years of experience,
+                JavaScript, PHP,Java, Python, mysql, R, C and Node.js. With 2 years of experience,
                 I'm committed to staying updated on industry trends and delivering
                 exceptional digital experiences. I excel in communication and
                 collaboration, ensuring that every project exceeds client
@@ -67,144 +75,89 @@
       </div>
     </section>
 <!--model format-->
-    <section class="Aboutme" id="aboutme">
-      <div class="article-container">
-        <h1>About <span>Me</span></h1>
-          <div class="article-content">
-            <h1>My<span>skills</span></h1>
-            <div class="skill-row">
-              <div class="skill-column">
-                <h3 class="title">Coding skills</h3>
-                <div class="skill-box">
-                  <div class="skill-content">
-                    <div class="progress">
-                      <h3>HTML <span>90%</span></h3>
-                      <img src="images/html.png" alt="">
-                      <div class="bar"><span></span></div>
+    <section class="codingskills" id="aboutme">
+      
+    </section>
+    <section class="development" id="aboutme">
+      <div class="development-container">
+        <div class="development-area">
+          <div class="development-skills">
+            <div class="development--wrapper">
+              <div class="development-section">
+                <div class="development-subsection">
+                  <h1>Web Development</h1>
+                  <div class="wrapper-web">
+                    <div class="dev-right-sec">
+                      <img src="images/webcover.jpg  " alt="">
                     </div>
-                    <div class="progress">
-                      <h3>CSS <span>90%</span></h3>
-                      <img src="images/css.png" alt="">
-                      <div class="bar"><span></span></div>
+                    <div class="dev-web">
+                      <h1>Need of a <span>Website</span></h1>
+                      <p>
+                        Design, create, and modify Web sites. Analyze user needs to implement Web site content, graphics, performance, and
+                        capacity. May integrate Web sites with other computer applications. May convert written, graphic, audio, and video
+                        components to compatible Web formats by using software designed to facilitate the creation of Web and multimedia
+                        content.
+                      </p>
+                      <div class="services-dev">
+                        <ul>
+                          <li><i class="fa-regular fa-circle-check"></i><p>Website Designs</p></li>
+                          <li><i class="fa-regular fa-circle-check"></i><p>Web Scrapping</p></li>
+                          <li><i class="fa-regular fa-circle-check"></i><p>Front-end development</p></li>
+                          <li><i class="fa-regular fa-circle-check"></i><p>Testing and Debugging development</p></li>
+                        </ul>
+                      </div>
                     </div>
-                    <div class="progress">
-                      <h3>JavaScript <span>68%</span></h3>
-                      <img src="images/javascript.png" alt="">
-                      <div class="bar"><span></span></div>
+                  </div>
+                </div>
+                <div class="development-subsection">
+                  <h1>Backend Development</h1>
+                  <div class="wrapper-web">
+                    <div class="dev-web">
+                      <h1>Work digitally with <span>awesome Features</span>  </h1>
+                      <p>
+                        Software development is the process of conceiving, specifying, designing, programming, documenting, testing, and bug
+                        fixing involved in creating and maintaining applications, frameworks, or other software components.
+                      </p>
+                      <div class="services-dev">
+                        <ul>
+                          <li><i class="fa-regular fa-circle-check"></i><p>RESTful APIs</p></li>
+                          <li><i class="fa-regular fa-circle-check"></i><p> Code Testing and Debugging </p></li>
+                          <li><i class="fa-regular fa-circle-check"></i><p>Database Management</p></li>
+                          <li><i class="fa-regular fa-circle-check"></i><p>Server Configuration</p></li>
+                        </ul>
+                      </div>
                     </div>
-                    <div class="progress">
-                      <h3>C# <span>72%</span></h3>
-                      <img src="images/csharp.png" alt="">
-                      <div class="bar"><span></span></div>
+                    <div class="dev-right-sec">
+                      <img src="images/laptop.jpg" alt="">
                     </div>
-                    <div class="progress">
-                      <h3>C <span>53%</span></h3>
-                      <img src="images/c.png" alt="">
-                      <div class="bar"><span></span></div>
+                  </div>
+                </div>
+                <div class="development-subsection">
+                  <h1>Data Analysis</h1>
+                  <div class="wrapper-web">
+                    <div class="dev-right-sec">
+                      <img src="images/Analysis1.jpg" alt="">
                     </div>
-                    <div class="progress">
-                      <h3>Java <span>45%</span></h3>
-                      <img src="images/java.png" alt="">
-                      <div class="bar"><span></span></div>
-                    </div>
-                    <div class="progress">
-                      <h3>Python <span>65%</span></h3>
-                      <img src="images/python.png" alt="">
-                      <div class="bar"><span></span></div>
-                    </div>
-                    <div class="progress">
-                      <h3>R <span>52%</span></h3>
-                      <img src="images/r.png" alt="">
-                      <div class="bar"><span></span></div>
-                    </div>
-                    <div class="progress">
-                      <h3>MySQL <span>68%</span></h3>
-                      <img src="images/mysql.png" alt="">
-                      <div class="bar"><span></span></div>
+                    <div class="dev-web">
+                      <h1>Analyse your business with <span>latest trend in the market</span></h1>
+                      <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                        Explicabo odit, neque, deserunt, nihil id voluptatibus repudiandae qui dolorum dolorem 
+                        facilis tenetur vero! Ipsam laudantium sunt in fuga impedit inventore error.
+                      </p>
+                      <div class="services-dev">
+                        <ul>
+                          <li><i class="fa-regular fa-circle-check"></i><p>CLean and Prepare Data</p></li>
+                          <li><i class="fa-regular fa-circle-check"></i><p>Creating Data Visualizations</p></li>
+                          <li><i class="fa-regular fa-circle-check"></i><p>Creating Dashboards</p></li>
+                          <li><i class="fa-regular fa-circle-check"></i><p>Analysing Data Models</p></li>
+                        </ul>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-              <div class="professional-skills">
-              <h>
-                <div class="heading">Professional Skills</div>
-              </h>
-              <div class="radical-bars">
-                <div class="radical-bar">
-                  <svg x="0px" y="0px" viewbox="0 0 200 200">
-                  <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                  <circle class="path path-1" cx="100" cy="100" r="80"></circle>
-                </svg>
-                <div class="percentage">70%</div>
-                <div class="text1">Problem Solving</div>
-                </div>
-                <div class="radical-bar">
-                  <svg x="0px" y="0px" viewbox="0 0 200 200">
-                  <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                  <circle class="path path-2" cx="100" cy="100" r="80"></circle>
-                </svg>
-                <div class="percentage">65%</div>
-                <div class="text1">Dynamic Programming</div>
-                </div>
-                <div class="radical-bar">
-                  <svg x="0px" y="0px" viewbox="0 0 200 200">
-                  <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                  <circle class="path path-3" cx="100" cy="100" r="80"></circle>
-                </svg>
-                <div class="percentage">78%</div>
-                <div class="text1">Creativity</div>
-                </div>
-                <div class="radical-bar">
-                  <svg x="0px" y="0px" viewbox="0 0 200 200">
-                  <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                  <circle class="path path-4" cx="100" cy="100" r="80"></circle>
-                </svg>
-                <div class="percentage">68%</div>
-                <div class="text1">Team work</div>
-                </div>
-                <div class="radical-bar">
-                  <svg x="0px" y="0px" viewbox="0 0 200 200">
-                  <circle class="progress-bar" cx="100" cy="100" r="80"></circle>
-                  <circle class="path path-5" cx="100" cy="100" r="80"></circle>
-                </svg>
-                <div class="percentage">70%</div>
-                <div class="text1">Communication</div><br>
-                </div>
-              </div>
-            </div> 
-          </div>
-      </div>
-<!--role-keeper format-->
-      <div class="aside-container">
-        <h1>Services</h1>
-        <div class="aside-content">
-          <div class="aside-role">
-            <h1>Web Developer<box-icon name="code-alt"></box-icon></h1>
-            <img src="images/web.jpg" alt="">
-            <p>
-              I'm a skilled web developer with expertise in web development and
-              back-end development, proficient in languages like HTML, CSS,
-              JavaScript, PHP, Python, and Node.js.
-            </p>
-          </div>
-          <div class="aside-role">
-            <h1>Data Analysis<box-icon name="signal-5"></box-icon></h1>
-            <img src="images/data.jpg" alt="">
-            <p>
-              I'm an experienced data analyst proficient in Python, R, SQL, and
-              Tableau, specializing in extracting actionable insights from
-              complex datasets to drive strategic decision-making and business
-              growth.
-            </p>
-          </div>
-          <div class="aside-role">
-            <h1>Backend Developer<box-icon name="cog"></box-icon></h1>
-            <img src="images/backend.jpg" alt="">
-            <p>
-              I'm an experienced backend engineer proficient in Python and
-              Javascript with expertise in building scalable server-side
-              applications and APIs.
-            </p>
+            </div>
           </div>
         </div>
       </div>
@@ -215,8 +168,7 @@
         <h1>Contact <span>Me</span></h1>
         <div class="contact-content">
           <div class="contact-info">
-            <p>Get in touch with me through phone number and email address</p>
-            <p><i class='bx bxs-phone' style='color:#1848ce' >+254 720 279 682</i> </p>            
+            <p>Get in touch with me through email address</p>
             <p><i class='bx bx-envelope' style='color:#1848ce'  >ishakindones27@gmail.com</i></p>
           </div>
         </div>
@@ -224,91 +176,64 @@
     </section>
     <section class="Achivemennts" id="projects">
       <!--footer format-->
-      <div class="projects-container">
-        <h3>Projects</h3>
-        <div class="projects-wrapper">
-          <div class="projects-items">
-            <h2>Web development</h2>
-            <div class="scroller" >
-              <ul class="taglist scroller__inner">
-                <li>Website Designs</li>
-                <li>Code debugging</li>
-                <li>Web scrapping</li>
-                <li>Testing web applications</li>
-              </ul>
-            </div>
-          </div>
-          <div class="projects-items">
-            <h2>Backend development</h2>
-            <div class="scroller" >
-              <ul class="taglist scroller__inner">
-                <li>API</li>
-                <li>Code debugging</li>
-                <li>Database Management</li>
-                <li>Server configuration</li>
-              </ul>
-            </div>
-          </div>
-          <div class="projects-items">
-            <h2>Achievements </h2>
-            <div class="scroller" >
-              <ul class="taglist scroller__inner" >
-                <li>Website Designs</li>
-                <li>Python (flaskApi,DjangoApi)</li>
-                <li>ASP .Net(C#)</li>
-                <li>Data analysis</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section><br><br><br>
-<!--span for a navigation-->    
-    <section>
-      <div class="header_header">
-            <ul class="header_menu">
-              <li><a href="#home">Home</a></li>|
-              <li><a href="#aboutme">About</a></li>|
-              <li><a href="#contact">Contact</a></li>|
-              <li><a href="#projects">Projects</a></li>
-            </ul>
-        </div>
     </section>
 <!-- footer social -->
-    <section id="social">
-        <div class="social-icons"><br>
-          <div class="social-links">
-            <h1>Follow on social media platforms</h1>
-            <a href="#social"><i class='bx bxl-facebook'></i>Lzak gakuna</a>
-            <a href="#social"><i class='bx bxl-twitter'></i>izak_gm</a>
-            <a href="#social"><i class='bx bxl-instagram'></i>izak97</a>
-            <a href="#social"><i class='bx bxl-github'></i>izak-gm</a>
+    <section id="social" class="footer">
+     <div class="footer-container">
+      <div class="footer-area">
+        <div class="footer-top-sec">
+          <div class="footer-header">
+            <h1>#CODEBREAKER</h1>
+            <div class="footer--section">
+              <div class="footer-section--wrapper">
+                <h1>Web <span>Development</span></h1>
+                <ul class="wrapper-links">
+                  <li class="redirects"><a href="webdev.html">Website Designs</a></li>
+                  <li class="redirects"><a href="webdev.html">Web Scrapping</a></li>
+                  <li class="redirects"><a href="webdev.html">Testing Web Applications</a></li>
+                  <li class="redirects"><a href="webdev.html">Testing and Debugging applications</a></li>
+                </ul>  
+              </div>
+              <div class="footer-section--wrapper">
+                <h1>Backend <span>Development</span></h1>
+                <ul class="wrapper-links">
+                  <li class="redirects"><a href="Backend.htnl">RESTful APIs</a></li>
+                  <li class="redirects"><a href="Backend.html">Code Debugging</a></li>
+                  <li class="redirects"><a href="Backend.html">Database Management</a></li>
+                  <li class="redirects"><a href="Backend.html">Server configuration</a></li>
+                </ul>
+              </div>
+              <div class="footer-section--wrapper">
+                <h1>Data <span>Analysis</span></h1>
+                <ul class="wrapper-links">
+                  <li class="redirects"><a href="Analysis.html">CLean and Prepare Data</a></li>
+                  <li class="redirects"><a href="Analysis.html">Creating Data Visualizations</a></li>
+                  <li class="redirects"><a href="Analysis.html">Creating Dashboards </a></li>
+                  <li class="redirects"><a href="Analysis.html">Analysing Data Models</a></li>
+                </ul> 
+              </div>
+              <div class="footer-section--wrapper">
+                <h1>Support</h1>
+                <ul class="wrapper-links">
+                  <li class="redirects"><a href="#home">About me</a></li>
+                  <li class="redirects"><a href="#contact">Contact</a></li>
+                  <li class="redirects"><a href="#contact">Blog & Forum</a></li>
+                  <li class="redirects"><a href="#contact">Email</a></li>
+                </ul>  
+              </div>
+            </div>
           </div>
         </div>
-        </section>
-<!-- closing tags -->
-    <div class="social__media">
-        <div class="social__media--wrap">
-            <div class="social__logo">
-              <a href="#home" id="footer__logo">
-                #codebreaker
-              </a>
-            </div>
-            
+        <div class="footer-bottom-sec">
+          <div class="right-section">
+            <p>Copyright &copy 2024 Portfolio | All rights Reserved | #CODEBREAKER</p>
+          </div>
         </div>
       </div>
-      <div class="website__rights">
-              <p>
-              &copy #codebreaker 2023-2024.All rights reserved.
-            </p>
-            </div>
-      <marquee behavior="scrolling" direction="left">
-        <div class="animation-webkit">
-          <div class="webkit">
-            <p>All right reserved and web created by Isaac</p>
-          </div>
-        </div>
-      </marquee>
+     </div>
+    </section>
+<!-- closing tags -->
+
     <script src="app.js"></script>
   </body>
 </html>
