@@ -256,13 +256,13 @@ html {
   /*navigation*/
   .navsec{
     height: 140vh;
+
   }
   .nav_container {
-    padding-top: 3%;
+    width: 100%;
   }
   .nav {
     display: flex;
-    padding: 4%;
     align-items: center;
     text-decoration: none;
     height: 120vh;
@@ -387,6 +387,58 @@ html {
 /*mode format*/
 .codingskills{ 
   background-color: var(--main-color);
+  width: 100%;
+}
+.background-section{
+  width: 100%;
+}
+.back-pp{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0 2rem;
+}
+.back-deg{
+  width: 100%;
+  padding: 1%;
+}
+.back-h1{
+  display: flex;
+  justify-content: center;
+  color: #131465;
+  padding: 1rem;
+}
+.back-p{
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.back-p-sec{
+  max-width: 600px;
+  margin: 0 10px;
+}
+.back-p-sec h1{
+  display: flex;
+}
+.back-p-sec h{
+  font-family: "Josefins";
+  font-style: italic;
+  font-variant: small-caps;
+  font-size: 1em;
+}
+.back-p-sec p{
+  font-style: normal;
+  line-height: 1.5rem;
+}
+@media (max-width:914px) {
+  .back-p{
+    display: flex;
+    flex-direction: column;
+  }
+  .back-p-sec{
+    padding: 1em 0;
+  }
 }
 /* development section */
 .development-container{
@@ -409,6 +461,14 @@ html {
 }
 .development-subsection{
   align-items: center;
+}
+.development-subsection h1{
+  align-items: center;
+  text-align: center;
+  color: #112e42;
+}
+.development-subsection h1 span{
+  color:#00abe4;
 }
 .wrapper-web{
   display: flex;
@@ -460,6 +520,7 @@ html {
   padding: 3px 10px;
 }
 .services-dev p{
+  font-family: "Josefins";
   color: teal;
   list-style: none;
   line-height: 20px;
@@ -476,6 +537,17 @@ html {
     display: flex;
     flex-direction: column;
   }
+  .dev-right-sec img{
+    width: 300px;
+    height: 300px;
+    align-items: center;
+    place-items: center;
+    border-radius: 20px;
+    object-fit: cover;
+    object-position: center;
+    -o-object-fit: cover;
+    -o-object-position: center;
+}
   .wrapper-web{
     display: flex;
     flex-direction: column;
