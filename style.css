@@ -64,7 +64,7 @@ html {
   text-align: center;
 }
 .header__item {
-  height: 80px;
+  height: 30px;
 }
 .header__links {
   color: #fff;
@@ -109,21 +109,21 @@ html {
   .header__container {
     display: flex;
     justify-content: space-between;
-    height: 80px;
+    height: 50px;
     z-index: 1;
     width: 100%;
     max-width: 1300px;
     padding: 0;
   }
   .header__btn {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
   }
   .button {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 80%;
-    height: 80px;
+    height: 30px;
     margin: 0;
   }
   .header__menu {
@@ -145,8 +145,8 @@ html {
     opacity: 1;
     transition: all 0.5s ease;
     z-index: 99;
-    height: 50vh;
-    font-size: 1.6rem;
+    height: 70vh;
+    font-size: 1rem;
   }
   #header__logo {
     padding-left: 25px;
@@ -163,7 +163,7 @@ html {
   }
   .header__links {
     text-align: center;
-    padding: 2rem;
+    padding: 1rem;
     width: 100%;
     display: table;
   }
@@ -323,14 +323,14 @@ html {
   .image_container img {
     padding: 0%;
     height: 400px;
-    border-radius: 50%;
+    border-radius: 100px;
   }
   
   /* image section */
   .image_container {
     position: relative;
     top: 10px;
-    left: 20px;
+    left: 0px;
     right: 40px;
     object-fit: cover;
     max-width: 400px;
@@ -526,6 +526,23 @@ html {
   line-height: 20px;
   font-size: 1rem;
 }
+.devops-btn{
+  font-family: "Josefins";
+  font: 1000;
+  height: 2rem;
+  width: 5rem;
+  letter-spacing: 1px;
+  align-items: center;
+  border-radius: 40px;
+  border: 1px transparent;
+}
+.devops-btn:hover{
+  background-color: #112e42;
+  color: white;
+}
+.devops-btn:hover::after{
+  width: 100%;
+}
 @media  (max-width:914px){
   .development-container{
   width: 100%;
@@ -538,8 +555,8 @@ html {
     flex-direction: column;
   }
   .dev-right-sec img{
-    width: 300px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     align-items: center;
     place-items: center;
     border-radius: 20px;
