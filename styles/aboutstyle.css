@@ -1,0 +1,229 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+:root{
+    --text-teal:teal;
+    --bg-color: #f8f8f8;
+    --text-color: #38b6ff;
+    --text-default: white;
+    --header-color: #081b29;
+    --box-color: #e9f1da;
+    --color-backup: #b9d8ac;
+    --color11: #31516b;
+}
+body,html{
+    overflow-x: hidden;
+}
+.hero-section{
+    padding: 0%;
+    margin: 0%;
+}
+.about-container{
+    width: 100%;
+    margin: 10px;    
+    padding: 5%;
+    height: 80vh;
+    background-image: url("../images/stolen.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.about-area{
+    width: 100%;
+}
+.about-message{
+    display: flexbox;
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    margin: 2%;
+    place-items: baseline;
+}
+.about-message h1{
+    color: var(--text-teal);
+}
+.about-message h1 span{
+    color: var(--text-color);
+}
+.about--section{
+    max-width: 700px;
+}
+.about--section p{
+    font-size:20px ;
+    color: white;
+
+}
+@media all and (max-width:1024){
+    .about-container{
+        width: 100%;
+        background-image: url("../images/stolen.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .about-message{
+        display: flexbox;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        padding: 50% 0;
+    }
+    .about--section{
+        width: 600px;
+    }
+}
+@media all and (max-width:760px){
+    .about-container{
+        width: 100%;
+        background-image: url("../images/stolen.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .about-message{
+        align-items: center;
+        width: 100%;
+    }
+    .about--section{
+        width: 650px;
+    }
+}
+/* founder section */
+.executive{
+    padding: 0%;
+    margin: 0px;
+    width: 100%;
+}
+.executive-container{
+    margin: 0;
+}
+.executive--sec{
+    display: flex;
+    padding: 2%;
+}
+.founder-right-sec{
+    max-width: 400px;
+    padding: 5%;
+}
+.founder-right-sec img{
+    width: 300px;
+    height: 300px;
+
+}
+.founder-left-sec{
+    align-items: right;
+    text-align: left;
+    padding:3%;
+}
+.founder-message{
+    padding: 2% 0%;
+}
+.founder-message h1{
+    color: var(--text-teal);
+    font-size: 30px;
+    text-wrap: nowrap;
+}
+.founder-message h1 span{
+    color: var(--text-color);
+}
+.founder-message p{
+    font-size: 17px;
+    line-height: 25px;
+    padding:4% 0%;
+}
+@media  all and (max-width:1024px) {
+    .executive--sec{
+        display: grid;
+    }
+    .founder-right-sec {
+        padding: 0% 20%;
+    }
+    .founder-right-sec img{
+        align-items: center;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+@media  all and (max-width:1760px) {
+    .executive--sec{
+        display: grid;
+    }
+    .founder-right-sec {
+        padding: 0% 20%;
+    }
+    .founder-right-sec img{
+        align-items: center;
+        object-fit: cover;
+        object-position: center;
+    }
+}
+/* executive section two */
+.exe-corner{
+    width: 100%;
+    padding: 0%;
+}
+.exe-header{
+    padding: 1rem;
+    
+}
+.exe-header h1{
+    margin: 0;
+    text-align: center;
+    padding: 2%;
+    color: teal;
+    height: 70px;
+}
+.exe-header h1 span{
+    color: var(--text-color);
+}
+.co-founder{
+    display: flex;
+    flex-direction: row;
+}
+.exe-posts{
+    align-items: center;
+    margin: 0% 1%;
+}
+.exe-posts{
+    text-align:center;
+    align-items: center;
+}
+
+.exe-posts img{
+    overflow: hidden;
+    width: 150px;
+    margin-left: 70px;
+}
+.exe-posts p{
+    text-align:center ;
+    align-items: center;
+    font-size: 16px;
+}
+@media  (max-width:1024px){
+    .exe-corner{
+        width:100%;
+        height: 100%;
+        justify-content: center;
+    }
+    .exe-area{
+        width: 100%;
+        height: 100%;
+    }
+    .co-founder{
+        display: grid;
+        grid-template-columns: repeat(2,2fr);
+    }
+}
+@media all and (max-width:760px){
+    .exe-area{
+        width: 100%;
+    }
+    .co-founder{
+        display: flex;
+        justify-content: center;
+        place-items: center;
+        flex-direction: column;
+    }
+}
