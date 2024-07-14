@@ -16,7 +16,6 @@
     rel="stylesheet">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
   <script src="app.js"></script>
 </head>
 
@@ -43,12 +42,12 @@
           <a href="#contact" class="header__links">Contact</a>
         </li>
         <li class="header__btn">
-          <a href="#" class="button" class="devops-projects-btn">Hire</a>
+          <a href="Hire.html" class="button" class="devops-projects-btn">HireMe</a>
         </li>
       </ul>
     </div>
   </section>
-  <section id="#Aboutme">
+  <section id="Aboutme">
     <div class="devops-container">
       <div class="devops-area">
         <div class="devops-section">
@@ -67,20 +66,20 @@
                   </div>
                   <div class="About-pp">
                     <p><i class="fa-solid fa-caret-right"></i>
-                      <h class="hh">Front-End: </h> <span> HTML, CSS, JavaScript, React, Angular, Vue.js</span>
+                      <h class="hh">Front-End: </h> <span> HTML, CSS, JavaScript, React</span>
                     </p>
                     <p><i class="fa-solid fa-caret-right"></i>
-                      <h class="hh">Back-End:</h> <span> Node.js, Express.js, Python (Django, Flask), Ruby on Rails,
+                      <h class="hh">Back-End:</h> <span> Node.js, Express.js, Python (Django, Flask),
                         Java, .NET</span>
                     </p>
                     <p><i class="fa-solid fa-caret-right"></i>
                       <h class="hh">Databases:</h> <span> MySQL, PostgreSQL, MongoDB, SQLite</span>
                     </p>
                     <p><i class="fa-solid fa-caret-right"></i>
-                      <h class="hh">Version Control:</h> <span> Git, GitHub, Bitbucket</span>
+                      <h class="hh">Version Control:</h> <span> Git, GitHub</span>
                     </p>
                     <p><i class="fa-solid fa-caret-right"></i>
-                      <h class="hh">Cloud Services:</h> <span> AWS, Azure, Google Cloud</span>
+                      <h class="hh">Cloud Services:</h> <span> AWS, Azure</span>
                     </p>
                   </div>
                 </div>
@@ -113,16 +112,15 @@
                     <p><i class="fa-solid fa-caret-right"></i>
                       <h class="hh">E-commerce Platform:</h> <span> Developed a full-featured e-commerce platform using
                         React, Node.js, and MongoDB, handling
-                        everything from user authentication to payment processing.</span>
+                        everything from user authentication to payment processing.
+                      As a team of junior developer and deployed the website.</span>
                     </p>
                     <p><i class="fa-solid fa-caret-right"></i>
-                      <h class="hh">Social Media Application:</h> <span> Created a scalable social media application
-                        with real-time features using Angular and
-                        Firebase.</span>
+                      <h class="hh">M-pesa Integration</h> <span>Used node.js and PHP for integration of M-pesa STK push for the system and for the paybill stk push</span>
                     </p>
                     <p><i class="fa-solid fa-caret-right"></i>
-                      <h class="hh">Corporate Website:</h> <span> Redesigned a corporate website for improved
-                        performance and SEO using Gatsby and Contentful.</span>
+                      <h class="hh">Personal Website:</h> <span> Redesigned a corporate website for improved
+                        performance using Gatsby and Contentful.</span>
                     </p>
                   </div>
                 </div>
@@ -150,7 +148,7 @@
                   <div class="About-h">
                     <h2>Contact Information:</h2>
                   </div>
-                  <div class="About-pp" id="#contact">
+                  <div class="About-pp" id="contact">
                     <p>Email:<span> maingiisaac27@gmail.com</span></p>
                     <p>LinkedIn<span> linkedin.com/in/isaac</span></p>
                     <p>GitHub:<span> github.com/izak-gm</span></p>
@@ -350,6 +348,26 @@
   </section>
 </body>
 <!-- closing tags -->
-<script src="js/devops.js"></script>
+<!-- <script src="js/devops.js"></script> -->
+ <script>
+  // dropdown section
+    document.querySelectorAll(".devops-projects-btn").forEach(button => {
+      button.addEventListener("click", () => {
+        const hyper = button.nextElementSibling;
+        hyper.style.display = hyper.style.display === "block" ? "none" : "block";
+      });
+    });
+
+ </script>
+  <script>
+      //mobile menu display
+      const menu = document.querySelector("#mobile-menu");
+      const menu__links = document.querySelector(".header__menu");
+
+      menu.addEventListener("click", function () {
+        menu.classList.toggle("is-active");
+        menu__links.classList.toggle("active");
+      });
+  </script>
 
 </html>

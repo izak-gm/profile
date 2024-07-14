@@ -582,9 +582,10 @@ html {
   color: teal;
   line-height: 40px;
 }
-.bxs-phone,
 .bx-envelope {
   font-size: 20px;
+  margin: 1rem;
+  padding: 0 1rem 0 1rem;
 }
 /* Achievements */
 

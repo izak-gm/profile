@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hire page</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="hire.css ">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+</head>
+<body>
+  <section class="header-sec">
+    <div class="header__container">
+      <a href="index.html" id="header__logo"> <i class="fas fa-gem"></i>#CODEBREAKER</a>
+      <div class="header__toggle" id="mobile-menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+      <ul class="header__menu">
+        <li class="header__item">
+          <a href="index.html" class="header__links">Home</a>
+        </li>
+        <li class="header__item">
+          <a href="index.html" class="header__links">AboutMe</a>
+        </li>
+        <li class="header__item">
+          <a href="DevOPs.html" class="header__links">Projects</a>
+        </li>
+        <li class="header__item">
+          <a href="DevOPs.html" class="header__links">Contact</a>
+        </li>
+        <li class="header__btn">
+          <a href="Hire.html" class="button" class="devops-projects-btn">HireMe</a>
+        </li>
+      </ul>
+    </div>
+  </section>
+  <section>
+    <div class="contact-container">
+      <div class="contact-area">
+        <div class="contact-section">
+          <div class="contact-right-sec">
+            <div class="wrapper-con-sec">
+              <h1>GET IN TOUCH</h1>
+              <div class="header-form">
+                <form target="_blank" action="https://formsubmit.co/ishakindones27@gmail.com" method="POST"
+                  class="form-details">
+                  <div class="input-box"><i class="fa-regular fa-user"></i><input required="true" placeholder="Name"></div>
+                  <div class="input-box"><i class="fa-regular fa-envelope"></i><input required="true"
+                      placeholder="Email Address" name="email"></div>
+                  <div class="input-box"><i class="fa-solid fa-mobile"></i><input required="true" placeholder="Phone Number">
+                  </div>
+                  <div class="input-box"><i class="fa-solid fa-message"></i><textarea name="Message" required="true" id=""
+                      placeholder="Message"></textarea></div>
+                  <div class="discloser">
+                    <input type="checkbox" required="true">
+                    <p>
+                      By providing Asset Holder your contact information, you acknowledge and
+                      agree to our Privacy Policy and consent to
+                      receiving marketing communications, including through automated texts, and
+                      emails. This consent isn’t necessary for purchasing any products or services
+                      and
+                      you may opt out at any time. To opt out from texts, you can reply, ‘stop’ at
+                      any time. To opt out from emails, you can click on the
+                      unsubscribe link in the emails. Message and data rates may apply.
+                    </p>
+                  </div>
+                  <button class="submit1-btn">SUBMIT <i class="fa-solid fa-angles-right"></i></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+</body>
+<script>
+  //mobile menu display
+
+    const menu = document.querySelector("#mobile-menu");
+    const menu__links = document.querySelector(".header__menu");
+
+    menu.addEventListener("click", function () {
+      menu.classList.toggle("is-active");
+      menu__links.classList.toggle("active");
+    });
+</script>
+</html>
