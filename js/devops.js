@@ -6,7 +6,7 @@ document.querySelectorAll(".devops-projects-btn").forEach(button => {
         });
       });
 
-  // menu mobile
+  // menu mobile system
  const menu = document.querySelector("#mobile-menu");
  const menu__links = document.querySelector(".header__menu");
 
